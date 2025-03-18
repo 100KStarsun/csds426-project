@@ -1,0 +1,15 @@
+{
+  "name": "networks-project",
+  "version": "1.0.0",
+  "description": "does my networks homework for me",
+  "license": "ISC",
+  "author": "me (le duh)",
+  "type": "module",
+  "main": "puppeteerdemo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "puppeteer": "^24.4.0"
+  }
+}
