@@ -1,0 +1,9 @@
+1. Request main english wikipedia page in new browser context.
+2. Scan page for the 3 recently featured wiki pages, obtain the URLs of those links.
+3. Create a new browser context for each link, visit it in series.
+4. Track the time it takes to perform all of those steps once the browser is created but before the page has been navigated to
+5. Repeat 10 times in series to get an average for each browser
+
+Opera GX: 4502.9 ms | 4621,4507,4463,4401,4549,4261,4544,4374,4901,4408
+Chrome:   5409.4 ms | 5484,5284,5549,5424,5442,5367,5445,5345,5443,5311
+Firefox:  4867.8 ms | 4769,4960,4899,4765,4759,5066,4801,5144,4862,4653
