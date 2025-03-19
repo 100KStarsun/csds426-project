@@ -1,22 +1,25 @@
 import fs from 'fs';
 import puppeteer from 'puppeteer';
 
-export async function testFandom(browserName, exePath) {
+export async function testFandom(browserName, exePath, useOperaAdBlocker) {
     // Launch the browser and open a new blank page
-    const browser = await puppeteer.launch({
+    const args = {
         executablePath: ['chrome', 'firefox'].includes(browserName) ? null : exePath,
         browser: ['chrome', 'firefox'].includes(browserName) ? browserName : 'chrome',
-        headless: false,
-        //userDataDir: 'C:\\Users\\100ks\\AppData\\Roaming\\Opera Software\\Opera GX Stable',
+        headless: true,
         ignoreDefaultArgs: true,
-        //ignoreDefaultArgs: ['--disable-extensions','--enable-automation','--disable-sync','--headless=new'],
-        //args: ['--enable-extensions'],
-        args: ['--user-data-dir=\"C:\\Users\\100ks\\AppData\\Roaming\\Opera Software\\Opera GX Stable\"'],
-        dumpio: true,
-        //args: ['--load-extension=\"C:\\Users\\100ks\\AppData\\Roaming\\Opera Software\\Opera GX Stable\\Extensions\\enegjkbbakeegngfapepobipndnebkdk\\1.1.3_0\\targeted_sd_section.js\"'],
-    });
-    const context = await browser.createBrowserContext();
-    const page = await context.newPage();
+        args: ['--user-data-dir=\"C:\\Users\\100ks\\Desktop\\opera-test\\profile\\data\"'],
+    }
+    if (!useOperaAdBlocker) {
+        delete args.args;
+        delete args.ignoreDefaultArgs;
+    }
+    const browser = await puppeteer.launch(args);
+    // const context = await browser.createBrowserContext();
+    // const browser = await puppeteer.connect({
+    //     browserWSEndpoint: 'ws://127.0.0.1:34567/devtools/browser/2a7694f9-3476-48f4-bed8-7a5a4a78035b',
+    // })
+    const page = await browser.newPage();
     
     try {
         fs.writeFileSync('debug/fandom/responseURLs.txt', "");
@@ -61,25 +64,26 @@ export async function testFandom(browserName, exePath) {
     const end = (new Date()).getTime();
     var totalTime = end-start;
     for (var i = 0; i < hrefs.length; i++) {
-        const tempBrowser = await puppeteer.launch({
-            executablePath: ['chrome', 'firefox'].includes(browserName) ? null : exePath,
-            browser: ['chrome', 'firefox'].includes(browserName) ? browserName : 'chrome',
-            headless: false,
-            ignoreDefaultArgs: ['--disable-extensions'],
-            args: ['--enable-extensions'],
-            // args: ['--load-extension=\"C:\\Users\\100ks\\AppData\\Roaming\\Opera Software\\Opera GX Stable\\Extensions\\enegjkbbakeegngfapepobipndnebkdk\\1.1.3_0\\targeted_sd_section.js\"'],
-            //args: ['--user-data-dir=\"C:\\Users\\100ks\\AppData\\Roaming\\Opera Software\\Opera GX Stable\"',],
-        });
+        // const tempBrowser = await puppeteer.launch({
+        //     executablePath: ['chrome', 'firefox'].includes(browserName) ? null : exePath,
+        //     browser: ['chrome', 'firefox'].includes(browserName) ? browserName : 'chrome',
+        //     headless: false,
+        //     ignoreDefaultArgs: ['--disable-extensions'],
+        //     args: ['--enable-extensions'],
+        //     // args: ['--load-extension=\"C:\\Users\\100ks\\AppData\\Roaming\\Opera Software\\Opera GX Stable\\Extensions\\enegjkbbakeegngfapepobipndnebkdk\\1.1.3_0\\targeted_sd_section.js\"'],
+        //     //args: ['--user-data-dir=\"C:\\Users\\100ks\\AppData\\Roaming\\Opera Software\\Opera GX Stable\"',],
+        // });
         const link = hrefs[i];
-        const tempContext = await tempBrowser.createBrowserContext();
-        const tempPage = await tempContext.newPage();
+        // const tempContext = await tempBrowser.createBrowserContext();
+        const tempPage = await browser.newPage();
         await tempPage.setViewport({width: 1600, height: 875});
         const tempStart = (new Date()).getTime();
         await tempPage.goto(link);
         await tempPage.waitForNetworkIdle();
         await tempPage.screenshot({ path: 'debug/fandom/' + link.substring(8,link.indexOf('.')) + '.png', });
         const tempEnd = (new Date()).getTime();
-        await tempBrowser.close();
+        await tempPage.close();
+        // await tempBrowser.close();
         totalTime += (tempEnd - tempStart);
     }
 
