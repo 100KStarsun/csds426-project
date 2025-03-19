@@ -1,9 +1,11 @@
 import fs from 'fs';
 import puppeteer from 'puppeteer';
 
-export async function testHvZLogin() {
+export async function testHvZLogin(exePath) {
     // Launch the browser and open a new blank page
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({
+        executablePath: exePath,
+    });
     const context = await browser.createBrowserContext();
     const page = await context.newPage();
     
