@@ -1,8 +1,5 @@
 # Images and other debug files
-.png
-.jpg
-**/requestURLs.txt
-**/responseURLs.txt
+debug/*
 
 
 # Logs

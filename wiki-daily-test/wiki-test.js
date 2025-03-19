@@ -11,18 +11,18 @@ export async function testDailyWiki(browserName, exePath) {
     const page = await context.newPage();
     
     try {
-        fs.writeFileSync('wiki-daily-test/responseURLs.txt', "");
-        fs.writeFileSync('wiki-daily-test/requestURLs.txt', "");
+        fs.writeFileSync('debug/wiki/responseURLs.txt', "");
+        fs.writeFileSync('debug/wiki/requestURLs.txt', "");
     } catch (err) { console.log(err); }
 
     page.on('response', response => {
-        fs.appendFile('wiki-daily-test/responseURLs.txt', response.url() + "\n", err => {
+        fs.appendFile('debug/wiki/responseURLs.txt', response.url() + "\n", err => {
             if (err) { console.log(err); }
         });
     });
 
     page.on('request', request => {
-        fs.appendFile('wiki-daily-test/requestURLs.txt', request.url() + "\n", err => {
+        fs.appendFile('debug/wiki/requestURLs.txt', request.url() + "\n", err => {
             if (err) { console.log(err); }
         });
     });
@@ -57,7 +57,7 @@ export async function testDailyWiki(browserName, exePath) {
         const tempStart = (new Date()).getTime();
         await tempPage.goto(link);
         await tempPage.waitForNetworkIdle();
-        await tempPage.screenshot({ path: 'wiki-daily-test/' + link.substring(29) + '.png', });
+        await tempPage.screenshot({ path: 'debug/wiki/' + link.substring(29) + '.png', });
         const tempEnd = (new Date()).getTime();
         await tempBrowser.close();
         totalTime += (tempEnd - tempStart);
