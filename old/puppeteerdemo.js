@@ -1,10 +1,10 @@
 import fs from 'fs';
-import { testFandom } from './fandom-test/fandom-test.js';
+import { testFandom } from './fandom-test.js';
 
 const application = 'chrome';
 const map = {
-    'operagx-adblock': 'C:\\Users\\100ks\\Desktop\\opera-test\\opera.exe',
-    'operagx': 'C:\\Users\\100ks\\Desktop\\opera-test\\opera.exe',
+    'operagx-adblock': 'C:\\Users\\100ks\\AppData\\Local\\Programs\\Opera GX\\opera.exe',
+    'operagx': 'C:\\Users\\100ks\\AppData\\Local\\Programs\\Opera GX\\opera.exe',
     'chrome': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
     'firefox': 'C:\\Program Files\\Mozilla Firefox\\firefox.exe'
 }
