@@ -1,7 +1,7 @@
 import puppeteer from 'puppeteer-extra';
 import AdblockerPlugin from 'puppeteer-extra-plugin-adblocker';
 
-function getArgs (browserName, adblockEnabled) {
+function getArgs (browserName) {
 
     const browsersMap = {
         'operagx': 'C:\\Users\\100ks\\Desktop\\opera-test\\opera.exe',
@@ -13,7 +13,6 @@ function getArgs (browserName, adblockEnabled) {
         executablePath: ['chrome', 'firefox'].includes(browserName) ? null : browsersMap[browserName],
         browser: ['chrome', 'firefox'].includes(browserName) ? browserName : 'chrome',
         headless: false,
-        devtools: true,
     }
     return args;
 }
@@ -25,19 +24,16 @@ export async function testBrowser(browserName, adblockEnabled, websites, data) {
         puppeteer.use(AdblockerPlugin({ blockTrackers: true }))
     }
     const results = [];
-    const idleTimeMs = 750;
+    const idleTimeMs = 500;
     // Launch the browser and open a new blank page
-    const args = getArgs(browserName, adblockEnabled);
+    const args = getArgs(browserName);
     console.log(args);
     const browser = await puppeteer.launch(args);
 
 
     for await (const website of websites) {
-        if (website in data) {
-            console.log(typeof(data[website]) + ": " + data[website]);
-        }
         var didTimeout = false;
-        process.stdout.write(website + "\n\t--> ");
+        process.stdout.write(website);
         // Create a page
         const page = await browser.newPage();
         // Set screen size, disable cache
@@ -56,13 +52,13 @@ export async function testBrowser(browserName, adblockEnabled, websites, data) {
             );
         } catch (err) {
             didTimeout = true;
-            console.log(err);
+            // console.log(err);
         }
         const end = (new Date()).getTime();
         await page.close();
         const totalTime = end-start-idleTimeMs;
-        const stringToAdd = didTimeout ? " (timeout)\n\n" : "\n\n";
-        process.stdout.write("" + totalTime + "ms" + stringToAdd);
+        const stringToAdd = didTimeout ? " (timeout)\n" : "\n";
+        process.stdout.write("\t--> " + totalTime + "ms" + stringToAdd);
         const times = [];
         if (!(website in data)) {
             times.push(totalTime);
@@ -72,6 +68,7 @@ export async function testBrowser(browserName, adblockEnabled, websites, data) {
         }
         results.push(totalTime);
     }
+    console.log("Exiting inner loop!");
 
     await browser.close();
 }

@@ -3,7 +3,7 @@ import { testBrowser } from './browser-test.js';
 
 var websites = []
 
-const websitesFile = "test-websites.txt";
+const websitesFile = "websites-top.txt";
 
 try {
     const data = fs.readFileSync(websitesFile, 'utf-8');
@@ -15,28 +15,39 @@ try {
 
 
 const trials = []
-const numTrials = 2;
+const numTrials = 3;
 for (var i = 0; i < numTrials; i++) {
     trials.push(i);
 }
 
-const adblockOptions = [false, true];
-const browsers = ["operagx", "chrome", "firefox"]
+const adblockOptions = [ false];
+const browsers = ["operagx"]
 const config = {
-    browser: "operagx",
+    browser: "firefox",
     adblocker: false
 }
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 for await (const adblockOption of adblockOptions) {
     config["adblocker"] = adblockOption
     for await (const browser of browsers) {
         config["browser"] = browser
-        var data = {}
-        for await (const trialNum of trials) {
-            
-            await testBrowser(config.browser, config.adblocker, websites, data);
+        if ((config.browser === "firefox" && config.adblocker === true)) {
+            console.log("Skipping: " + JSON.stringify(config));
+            await (sleep(1000));
+        } else {
+            var data = {}
+            for await (const trialNum of trials) {
+                console.log(config.browser + " " + config.adblocker + " round: " + trialNum);
+                await testBrowser(config.browser, config.adblocker, websites, data);
+            }
+            try {
+                fs.writeFileSync("2con-500ms-data/" + config.browser + "-" + config.adblocker + "-times.json", JSON.stringify(data, null, 4));
+                fs.writeFileSync("data/" + config.browser + "-" + config.adblocker + "-times.json", JSON.stringify(data, null, 4));
+            } catch (err) { console.log(err); }
         }
-        try {
-            fs.writeFileSync("testdata/times-" + JSON.stringify(config) + ".json", JSON.stringify(data, null, 4));
-        } catch (err) { console.log(err); }
     }
 }
