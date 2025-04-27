@@ -20,11 +20,11 @@ for (var i = 0; i < numTrials; i++) {
     trials.push(i);
 }
 
-const adblockOptions = [ false];
-const browsers = ["operagx"]
+const adblockOptions = [true, false];
+const browsers = ["operagx", "chrome"]
 const config = {
-    browser: "firefox",
-    adblocker: false
+    browser: "operagx",
+    adblocker: true
 }
 
 function sleep(ms) {

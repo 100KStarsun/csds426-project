@@ -1,0 +1,1382 @@
+{
+    "https://www.google.com/": [
+        1434,
+        1519,
+        1489
+    ],
+    "https://www.microsoft.com/": [
+        3345,
+        3750,
+        5315
+    ],
+    "https://mail.ru/": [
+        13071,
+        16018,
+        13235
+    ],
+    "https://www.apple.com/": [
+        833,
+        827,
+        564
+    ],
+    "https://www.youtube.com/": [
+        30928,
+        30966,
+        33587
+    ],
+    "https://www.cloudflare.com/": [
+        2877,
+        2868,
+        3129
+    ],
+    "https://www.linkedin.com/": [
+        1439,
+        1397,
+        2583
+    ],
+    "https://www.amazon.com/": [
+        1217,
+        1229,
+        1256
+    ],
+    "https://en.wikipedia.org/wiki/Main_Page": [
+        577,
+        523,
+        557
+    ],
+    "https://workers.cloudflare.com/": [
+        676,
+        734,
+        499
+    ],
+    "https://marketingplatform.google.com/": [
+        516,
+        769,
+        738
+    ],
+    "https://github.com/": [
+        29621,
+        29605,
+        29739
+    ],
+    "https://www.bing.com/": [
+        2278,
+        2600,
+        2346
+    ],
+    "https://www.icloud.com/": [
+        543,
+        572,
+        626
+    ],
+    "https://www.whatsapp.com/": [
+        1860,
+        1810,
+        1974
+    ],
+    "https://wordpress.org/": [
+        323,
+        392,
+        307
+    ],
+    "https://www.fastly.com/": [
+        824,
+        720,
+        733
+    ],
+    "https://www.skype.com/en/": [
+        1007,
+        917,
+        3642
+    ],
+    "https://www.netflix.com/": [
+        2736,
+        2655,
+        2934
+    ],
+    "https://www.pinterest.com/": [
+        29409,
+        29432,
+        29374
+    ],
+    "https://www.yahoo.com/": [
+        30305,
+        30125,
+        29744
+    ],
+    "https://www.digicert.com/": [
+        4703,
+        4492,
+        4532
+    ],
+    "https://www.adobe.com/": [
+        3345,
+        2745,
+        1948
+    ],
+    "https://vimeo.com/": [
+        30226,
+        30312,
+        30245
+    ],
+    "https://open.spotify.com/": [
+        30573,
+        30946,
+        30700
+    ],
+    "https://www.roblox.com/": [
+        2542,
+        2567,
+        2350
+    ],
+    "https://www.msn.com/": [
+        29541,
+        29335,
+        29577
+    ],
+    "https://ntp.org/": [
+        955,
+        1045,
+        1903
+    ],
+    "https://bitly.com/": [
+        737,
+        732,
+        710
+    ],
+    "https://www.intuit.com/": [
+        1056,
+        1900,
+        1125
+    ],
+    "https://www.nic.ru/": [
+        9487,
+        30905,
+        30897
+    ],
+    "https://www.mozilla.org/": [
+        490,
+        719,
+        475
+    ],
+    "https://www.gandi.net/": [
+        29306,
+        29320,
+        29329
+    ],
+    "https://www.zoom.com/": [
+        1351,
+        1277,
+        1504
+    ],
+    "https://www.qq.com/": [
+        9837,
+        10101,
+        10075
+    ],
+    "https://www.blogger.com/": [
+        1548,
+        1498,
+        1498
+    ],
+    "https://domains.google/": [
+        557,
+        570,
+        706
+    ],
+    "https://www.opera.com/": [
+        501,
+        606,
+        574
+    ],
+    "https://one.one.one.one/": [
+        918,
+        891,
+        852
+    ],
+    "https://www.samsung.com/": [
+        30050,
+        30268,
+        29774
+    ],
+    "https://www.telekom.com/": [
+        2731,
+        3009,
+        2768
+    ],
+    "https://www.baidu.com/": [
+        34893,
+        32706,
+        34620
+    ],
+    "https://unity.com/": [
+        1263,
+        1285,
+        1330
+    ],
+    "https://health.mil/": [
+        6303,
+        6143,
+        9969
+    ],
+    "https://www.snapchat.com/": [
+        1117,
+        1101,
+        1147
+    ],
+    "https://nginx.org/": [
+        1187,
+        1201,
+        1547
+    ],
+    "https://apache.org/": [
+        1532,
+        302,
+        736
+    ],
+    "https://telegram.org/": [
+        30354,
+        30150,
+        30989
+    ],
+    "https://sentry.io/": [
+        29462,
+        29486,
+        29576
+    ],
+    "https://vk.com/": [
+        4877,
+        5305,
+        6195
+    ],
+    "https://gravatar.com/": [
+        695,
+        742,
+        834
+    ],
+    "https://pages.github.com/": [
+        443,
+        405,
+        391
+    ],
+    "https://www.dropbox.com/": [
+        2413,
+        2155,
+        2156
+    ],
+    "https://www.criteo.com/": [
+        1143,
+        1154,
+        1168
+    ],
+    "https://www.nih.gov/": [
+        1066,
+        971,
+        1092
+    ],
+    "https://www.tumblr.com/": [
+        844,
+        924,
+        807
+    ],
+    "https://dns.google/": [
+        762,
+        1004,
+        662
+    ],
+    "https://www.t-online.de/": [
+        1892,
+        1962,
+        2441
+    ],
+    "https://www.one.com/en/": [
+        2173,
+        2703,
+        2556
+    ],
+    "https://www.nist.gov/": [
+        511,
+        529,
+        885
+    ],
+    "https://ui.com/": [
+        31157,
+        31305,
+        31316
+    ],
+    "https://store.epicgames.com/": [
+        31030,
+        30916,
+        31056
+    ],
+    "https://www.nytimes.com/": [
+        1475,
+        1472,
+        1431
+    ],
+    "https://archive.org/": [
+        3003,
+        2664,
+        2812
+    ],
+    "https://pki.goog/": [
+        815,
+        813,
+        742
+    ],
+    "https://letsencrypt.org/": [
+        664,
+        765,
+        685
+    ],
+    "https://www.paypal.com/us/home": [
+        30350,
+        30260,
+        30253
+    ],
+    "https://www.adriver.ru/": [
+        4432,
+        4434,
+        4388
+    ],
+    "https://flickr.com/": [
+        4887,
+        4583,
+        4665
+    ],
+    "https://sso.myfritz.net/": [
+        32401,
+        32362,
+        31592
+    ],
+    "https://www.f5.com/": [
+        1768,
+        1779,
+        1552
+    ],
+    "https://moskva.mts.ru/": [
+        6296,
+        24370,
+        6748
+    ],
+    "https://medium.com/": [
+        29497,
+        29373,
+        30998
+    ],
+    "https://meraki.cisco.com/": [
+        727,
+        699,
+        674
+    ],
+    "https://www.cnn.com/": [
+        4748,
+        4671,
+        4366
+    ],
+    "https://www.forbes.com/": [
+        29338,
+        29335,
+        29334
+    ],
+    "https://www.rubiconproject.com/": [
+        817,
+        841,
+        772
+    ],
+    "https://www.ivi.ru/": [
+        33547,
+        34090,
+        33469
+    ],
+    "https://soundcloud.com/": [
+        29418,
+        29420,
+        29397
+    ],
+    "https://www.w3.org/": [
+        668,
+        765,
+        699
+    ],
+    "https://discord.com/": [
+        1673,
+        1571,
+        1610
+    ],
+    "https://www.theguardian.com/": [
+        1035,
+        1423,
+        1451
+    ],
+    "https://www.wildberries.ru/": [
+        2631,
+        2931,
+        2704
+    ],
+    "https://home.miui.com/": [
+        7552,
+        6438,
+        5897
+    ],
+    "https://www.amazonvideo.com/": [
+        1760,
+        2058,
+        1956
+    ],
+    "https://t.co/": [
+        256,
+        248,
+        225
+    ],
+    "https://www.kaspersky.com/": [
+        8746,
+        8815,
+        8789
+    ],
+    "https://developer.adobe.com/": [
+        1741,
+        2140,
+        1601
+    ],
+    "https://www.sciencedirect.com/": [
+        1534,
+        1536,
+        1553
+    ],
+    "https://workspace.google.com/": [
+        1104,
+        1025,
+        1078
+    ],
+    "https://www.android.com/": [
+        998,
+        1082,
+        1186
+    ],
+    "https://www.taobao.com/": [
+        6708,
+        6391,
+        29548
+    ],
+    "https://doubleverify.com/": [
+        769,
+        661,
+        1154
+    ],
+    "https://www.indexexchange.com/": [
+        693,
+        664,
+        668
+    ],
+    "https://www.ozon.ru/": [
+        1683,
+        1646,
+        2661
+    ],
+    "https://linkos.bg/": [
+        2856,
+        2958,
+        2933
+    ],
+    "https://www.twitch.tv/": [
+        31093,
+        30755,
+        30794
+    ],
+    "https://www.taboola.com/": [
+        738,
+        522,
+        583
+    ],
+    "https://creativecommons.org/": [
+        770,
+        864,
+        739
+    ],
+    "https://www.bbc.co.uk/": [
+        29505,
+        30718,
+        2324
+    ],
+    "https://www.roku.com/": [
+        2475,
+        1973,
+        1840
+    ],
+    "https://www.webex.com/": [
+        1575,
+        1726,
+        1543
+    ],
+    "https://www.ebay.com/": [
+        2893,
+        2916,
+        2843
+    ],
+    "https://sourceforge.net/": [
+        1234,
+        1195,
+        1256
+    ],
+    "https://www.vungle.com/": [
+        2593,
+        2375,
+        3183
+    ],
+    "https://slack.com/": [
+        2432,
+        2354,
+        2354
+    ],
+    "https://web.mit.edu/": [
+        751,
+        495,
+        719
+    ],
+    "https://www.scorecardresearch.com/": [
+        415,
+        568,
+        471
+    ],
+    "https://www.salesforce.com/": [
+        2351,
+        2239,
+        2031
+    ],
+    "https://example.com/": [
+        335,
+        327,
+        203
+    ],
+    "https://www.comcast.net/": [
+        5482,
+        2857,
+        2946
+    ],
+    "https://www.imdb.com/": [
+        30266,
+        30002,
+        30243
+    ],
+    "https://pubmatic.com/": [
+        822,
+        733,
+        606
+    ],
+    "https://ubuntu.com/": [
+        1678,
+        1788,
+        1748
+    ],
+    "https://www.cisco.com/": [
+        2647,
+        1725,
+        2465
+    ],
+    "https://www.researchgate.net/": [
+        30083,
+        30123,
+        30094
+    ],
+    "https://www.t-mobile.com/": [
+        3705,
+        4300,
+        3338
+    ],
+    "https://www.oracle.com/": [
+        2027,
+        2075,
+        3247
+    ],
+    "https://openai.com/": [
+        2865,
+        2740,
+        2378
+    ],
+    "https://www.who.int/": [
+        1725,
+        1723,
+        1345
+    ],
+    "https://www.wikimedia.org/": [
+        338,
+        305,
+        325
+    ],
+    "https://www.canva.com/": [
+        1779,
+        2862,
+        1740
+    ],
+    "https://www.shopify.com/": [
+        836,
+        814,
+        1148
+    ],
+    "https://www.nvidia.com/": [
+        2120,
+        927,
+        834
+    ],
+    "https://www.doi.org/": [
+        1127,
+        1054,
+        1126
+    ],
+    "https://www.netangles.ru/": [
+        32467,
+        32185,
+        32670
+    ],
+    "https://www.hubspot.com/": [
+        1799,
+        2964,
+        1877
+    ],
+    "https://linktr.ee/": [
+        1131,
+        1095,
+        1050
+    ],
+    "https://www.wix.com/": [
+        30304,
+        29659,
+        29686
+    ],
+    "https://tinyurl.com/": [
+        7578,
+        5053,
+        3251
+    ],
+    "https://www.hp.com/": [
+        3494,
+        2142,
+        2003
+    ],
+    "https://www.nasa.gov/": [
+        3571,
+        2930,
+        2879
+    ],
+    "https://blog.google/": [
+        856,
+        933,
+        833
+    ],
+    "https://www.crashlytics.com/": [
+        30505,
+        30338,
+        30936
+    ],
+    "https://launchdarkly.com/": [
+        2799,
+        2517,
+        2389
+    ],
+    "https://issuu.com/": [
+        31133,
+        31108,
+        31263
+    ],
+    "https://openx.net/": [
+        230,
+        258,
+        209
+    ],
+    "https://www.tradingview.com/": [
+        2404,
+        1465,
+        1486
+    ],
+    "https://arubanetworking.hpe.com/": [
+        1311,
+        1230,
+        1514
+    ],
+    "https://www.opendns.com/": [
+        796,
+        879,
+        837
+    ],
+    "https://www.avast.com/": [
+        1247,
+        1043,
+        1223
+    ],
+    "https://www.ampproject.org/": [
+        586,
+        592,
+        788
+    ],
+    "https://www.mtgglobals.com/": [
+        163,
+        146,
+        156
+    ],
+    "https://www.appsflyer.com/": [
+        859,
+        670,
+        685
+    ],
+    "https://www.drom.ru/": [
+        3710,
+        3881,
+        3672
+    ],
+    "https://launchpad.net/": [
+        2377,
+        2572,
+        2681
+    ],
+    "https://stripe.com/": [
+        1446,
+        1575,
+        2146
+    ],
+    "https://www.php.net/": [
+        29645,
+        29874,
+        29676
+    ],
+    "https://triplelift.com/": [
+        2015,
+        1909,
+        1830
+    ],
+    "https://chatgpt.com/": [
+        29761,
+        29819,
+        29715
+    ],
+    "https://www.cdc.gov/": [
+        820,
+        930,
+        971
+    ],
+    "https://www.harvard.edu/": [
+        924,
+        1012,
+        945
+    ],
+    "https://www.espn.com/": [
+        31904,
+        31977,
+        30148
+    ],
+    "https://www.go.com/": [
+        814,
+        800,
+        827
+    ],
+    "https://www.reg.ru/": [
+        4874,
+        4621,
+        4374
+    ],
+    "https://cpanel.net/": [
+        1232,
+        1232,
+        1371
+    ],
+    "https://adsrvr.org/": [
+        550,
+        574,
+        478
+    ],
+    "https://store.steampowered.com/": [
+        864,
+        1038,
+        924
+    ],
+    "https://www.reuters.com/": [
+        29629,
+        30255,
+        30052
+    ],
+    "https://www.gov.uk/": [
+        29531,
+        29247,
+        30085
+    ],
+    "https://www.weebly.com/": [
+        30972,
+        31082,
+        30986
+    ],
+    "https://www.ibm.com/": [
+        2873,
+        3078,
+        2863
+    ],
+    "https://www.godaddy.com/": [
+        5066,
+        4692,
+        4617
+    ],
+    "https://www.washingtonpost.com/": [
+        5630,
+        1764,
+        1812
+    ],
+    "https://www.dailymail.co.uk/": [
+        30665,
+        30735,
+        30850
+    ],
+    "https://www.wiley.com/": [
+        4463,
+        5048,
+        4168
+    ],
+    "https://www.dailymotion.com/us": [
+        3321,
+        3267,
+        3538
+    ],
+    "https://1c.ru/": [
+        3974,
+        3969,
+        3944
+    ],
+    "https://www.ea.com/": [
+        1479,
+        1596,
+        1902
+    ],
+    "https://appcenter.ms/": [
+        763,
+        808,
+        926
+    ],
+    "https://www.forter.com/": [
+        1170,
+        1167,
+        1118
+    ],
+    "https://www.sharethrough.com/": [
+        31200,
+        31217,
+        31203
+    ],
+    "https://www.slideshare.net/": [
+        1581,
+        1513,
+        1588
+    ],
+    "https://www.branch.io/": [
+        1072,
+        1491,
+        1607
+    ],
+    "https://weather.com/": [
+        1612,
+        2967,
+        1707
+    ],
+    "https://www.wsj.com/": [
+        2165,
+        2266,
+        2361
+    ],
+    "https://www.inmobi.com/": [
+        630,
+        654,
+        780
+    ],
+    "https://www.booking.com/": [
+        30622,
+        30682,
+        30628
+    ],
+    "https://www.alibaba.com/": [
+        2472,
+        2833,
+        2493
+    ],
+    "https://pages.cloudflare.com/": [
+        769,
+        887,
+        875
+    ],
+    "https://www.nature.com/": [
+        29989,
+        29909,
+        29929
+    ],
+    "https://www.debian.org/": [
+        29750,
+        29563,
+        29483
+    ],
+    "https://equativ.com/": [
+        4640,
+        3497,
+        4344
+    ],
+    "https://www.outbrain.com/": [
+        1608,
+        1668,
+        1858
+    ],
+    "https://www.bloomberg.com/": [
+        2170,
+        2132,
+        2344
+    ],
+    "https://www.mi.com/": [
+        2856,
+        3057,
+        2677
+    ],
+    "https://www.weibo.com/": [
+        18648,
+        8763,
+        9770
+    ],
+    "https://mikrotik.com/": [
+        3107,
+        3124,
+        3493
+    ],
+    "https://www.etsy.com/": [
+        29974,
+        754,
+        29956
+    ],
+    "https://crpt.ru/": [
+        1951,
+        1948,
+        1873
+    ],
+    "https://www.springer.com/": [
+        1526,
+        1447,
+        1598
+    ],
+    "https://www.checkpoint.com/": [
+        996,
+        1048,
+        1039
+    ],
+    "https://moe.video/": [
+        2511,
+        2185,
+        2933
+    ],
+    "https://www.un.org/": [
+        949,
+        636,
+        725
+    ],
+    "https://www.gnu.org/": [
+        1335,
+        1480,
+        610
+    ],
+    "https://dnsmadeeasy.com/": [
+        2216,
+        2326,
+        2517
+    ],
+    "https://stackoverflow.com/": [
+        29835,
+        29675,
+        29813
+    ],
+    "https://rutube.ru/": [
+        9239,
+        7809,
+        8501
+    ],
+    "https://www.cnbc.com/": [
+        29613,
+        29600,
+        29772
+    ],
+    "https://m365.cloud.microsoft/": [
+        2802,
+        2697,
+        29804
+    ],
+    "https://www.mcafee.com/": [
+        2509,
+        2587,
+        2532
+    ],
+    "https://wordpress.com/": [
+        29438,
+        29410,
+        29421
+    ],
+    "https://www.gosuslugi.ru/": [
+        6041,
+        5761,
+        32615
+    ],
+    "https://pixabay.com/": [
+        31348,
+        31304,
+        31514
+    ],
+    "https://www.stanford.edu/": [
+        1317,
+        957,
+        869
+    ],
+    "https://www.huawei.com/": [
+        818,
+        1196,
+        1419
+    ],
+    "https://www.businessinsider.com/": [
+        29229,
+        29226,
+        29233
+    ],
+    "https://www.walmart.com/": [
+        29926,
+        29680,
+        29992
+    ],
+    "https://www.independent.co.uk/": [
+        29449,
+        2168,
+        4564
+    ],
+    "https://ring.com/": [
+        2834,
+        2419,
+        1642
+    ],
+    "https://www.deepintent.com/": [
+        31199,
+        31213,
+        31001
+    ],
+    "https://unsplash.com/": [
+        29334,
+        29373,
+        29288
+    ],
+    "https://www.indeed.com/": [
+        1930,
+        1989,
+        1901
+    ],
+    "https://www.hichina.com/": [
+        6430,
+        6579,
+        6286
+    ],
+    "https://www.consultant.ru/": [
+        4436,
+        4355,
+        4204
+    ],
+    "https://www.naver.com/": [
+        5836,
+        4987,
+        5324
+    ],
+    "https://www.autodesk.com/": [
+        30232,
+        30301,
+        30156
+    ],
+    "https://www.tp-link.com/": [
+        637,
+        1177,
+        673
+    ],
+    "https://www.aliexpress.com/": [
+        31707,
+        33699,
+        31426
+    ],
+    "https://agency.nota.media/": [
+        34025,
+        34410,
+        34223
+    ],
+    "https://www.quora.com/": [
+        2446,
+        1124,
+        1227
+    ],
+    "https://www.dell.com/": [
+        29948,
+        30310,
+        30769
+    ],
+    "https://www.eventbrite.com/": [
+        1781,
+        1820,
+        1785
+    ],
+    "https://www.bilibili.com/": [
+        2781,
+        2509,
+        2220
+    ],
+    "https://www.foxnews.com/": [
+        30714,
+        30556,
+        30369
+    ],
+    "https://www.temu.com/": [
+        29551,
+        29567,
+        29544
+    ],
+    "https://www.globo.com/": [
+        5077,
+        6630,
+        8436
+    ],
+    "https://duckduckgo.com/": [
+        1062,
+        672,
+        681
+    ],
+    "https://www.statista.com/": [
+        4672,
+        4481,
+        4831
+    ],
+    "https://www.npr.org/": [
+        29544,
+        29441,
+        29475
+    ],
+    "https://ok.ru/": [
+        3765,
+        4052,
+        3747
+    ],
+    "https://www.rambler.ru/": [
+        5299,
+        4451,
+        4762
+    ],
+    "https://www.duckdns.org/": [
+        751,
+        1036,
+        755
+    ],
+    "https://www.sohu.com/": [
+        14443,
+        17630,
+        16044
+    ],
+    "https://xhamster.com/": [
+        31450,
+        31107,
+        31014
+    ],
+    "https://ngenix.net/": [
+        30905,
+        30990,
+        30850
+    ],
+    "https://www.ys7.com/": [
+        29005,
+        29003,
+        25911
+    ],
+    "https://www.aol.com/": [
+        30236,
+        30273,
+        30695
+    ],
+    "https://www.goodreads.com/": [
+        775,
+        749,
+        822
+    ],
+    "https://www.intel.com/": [
+        3083,
+        3324,
+        3401
+    ],
+    "https://www.duolingo.com/": [
+        30351,
+        30427,
+        30467
+    ],
+    "https://www.kwai-pro.com/": [
+        3486,
+        3169,
+        3364
+    ],
+    "https://giphy.com/": [
+        1436,
+        1430,
+        1478
+    ],
+    "https://yandex.com/": [
+        31347,
+        31368,
+        31360
+    ],
+    "https://timeweb.com/": [
+        5836,
+        5136,
+        6182
+    ],
+    "https://www.teamviewer.com/": [
+        31009,
+        31002,
+        30968
+    ],
+    "https://www.wired.com/": [
+        1377,
+        1376,
+        1445
+    ],
+    "https://mega.io/": [
+        5731,
+        2217,
+        7869
+    ],
+    "https://time.com/": [
+        30775,
+        30781,
+        30835
+    ],
+    "https://www.grammarly.com/": [
+        723,
+        695,
+        692
+    ],
+    "https://www.behance.net/": [
+        3064,
+        3017,
+        3203
+    ],
+    "https://www.eset.com/": [
+        3988,
+        3847,
+        3639
+    ],
+    "https://www.usatoday.com/": [
+        3187,
+        1519,
+        1512
+    ],
+    "https://www.entrust.com/": [
+        1613,
+        1776,
+        1790
+    ],
+    "https://www.speedtest.net/": [
+        1273,
+        1297,
+        1215
+    ],
+    "https://about.gitlab.com/": [
+        1098,
+        1042,
+        1178
+    ],
+    "https://calendly.com/": [
+        1183,
+        1715,
+        1487
+    ],
+    "https://www.sophos.com/": [
+        1985,
+        2045,
+        2431
+    ],
+    "https://www.addtoany.com/": [
+        883,
+        1006,
+        941
+    ],
+    "https://www.netease.com/": [
+        5790,
+        4352,
+        4043
+    ],
+    "https://www.kwai.com/": [
+        4086,
+        4524,
+        4340
+    ],
+    "https://www.mediatek.com/": [
+        1560,
+        1310,
+        1350
+    ],
+    "https://cloud.huawei.com/": [
+        13503,
+        12887,
+        14864
+    ],
+    "https://www.uber.com/": [
+        1490,
+        1408,
+        29401
+    ],
+    "https://www.360yield.com/": [
+        3225,
+        2400,
+        9487
+    ],
+    "https://www.ft.com/": [
+        2153,
+        2294,
+        2114
+    ],
+    "https://www.paloaltonetworks.com/": [
+        29869,
+        30131,
+        29861
+    ],
+    "https://www.scribd.com/": [
+        29527,
+        29518,
+        29524
+    ],
+    "https://www.mysql.com/": [
+        1194,
+        1055,
+        953
+    ],
+    "https://www.mayoclinic.org/": [
+        1640,
+        1621,
+        1905
+    ],
+    "https://www.indiatimes.com/": [
+        1325,
+        1295,
+        1409
+    ],
+    "https://www.att.com/": [
+        10307,
+        5976,
+        8437
+    ],
+    "https://www.cnet.com/": [
+        1403,
+        1447,
+        1380
+    ],
+    "https://www.aliyun.com/": [
+        6240,
+        14273,
+        7151
+    ],
+    "https://www.uol.com.br/": [
+        11237,
+        11365,
+        13415
+    ],
+    "https://www.ietf.org/": [
+        961,
+        1021,
+        995
+    ]
+}
