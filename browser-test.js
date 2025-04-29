@@ -17,14 +17,11 @@ function getArgs (browserName) {
     return args;
 }
 
-
-
-export async function testBrowser(browserName, adblockEnabled, websites, data) {
+export async function testBrowser(browserName, adblockEnabled, websites, data, browserTestOptions) {
     if (adblockEnabled) {
         puppeteer.use(AdblockerPlugin({ blockTrackers: true }))
     }
     const results = [];
-    const idleTimeMs = 500;
     // Launch the browser and open a new blank page
     const args = getArgs(browserName);
     console.log(args);
@@ -46,8 +43,8 @@ export async function testBrowser(browserName, adblockEnabled, websites, data) {
             // Wait for page to finish loading, then calculate time to load
             await page.waitForNetworkIdle(
                 {
-                    concurrency: 2,
-                    idleTime: idleTimeMs
+                    concurrency: browserTestOptions.concurrentRequests,
+                    idleTime: browserTestOptions.timeUntilIdle
                 }
             );
         } catch (err) {
@@ -56,7 +53,7 @@ export async function testBrowser(browserName, adblockEnabled, websites, data) {
         }
         const end = (new Date()).getTime();
         await page.close();
-        const totalTime = end-start-idleTimeMs;
+        const totalTime = end-start-browserTestOptions.timeUntilIdle;
         const stringToAdd = didTimeout ? " (timeout)\n" : "\n";
         process.stdout.write("\t--> " + totalTime + "ms" + stringToAdd);
         const times = [];

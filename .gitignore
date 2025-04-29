@@ -1,6 +1,6 @@
 defaultArgs.json
 .venv
-
+*.png
 # Images and other debug files
 debug/*
 
